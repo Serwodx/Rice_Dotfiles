@@ -1,0 +1,117 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 1,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 727,
+       "width": 1262,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "kitty",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^kitty$",
+       // "instance": "^kitty$",
+       // "machine": "^archlinux$",
+        "title": "^kitty$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            // splith split container with 2 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "marks": [],
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 1,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 727,
+                       "width": 1262,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "clock",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       // "class": "^kitty$",
+                       // "instance": "^kitty$",
+                       // "machine": "^archlinux$",
+                        "title": "^clock$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 1,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 727,
+                       "width": 1262,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "htop",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       // "class": "^kitty$",
+                       // "instance": "^kitty$",
+                       // "machine": "^archlinux$",
+                        "title": "^htop$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 727,
+               "width": 1262,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "ranger",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^kitty$",
+               // "instance": "^kitty$",
+               // "machine": "^archlinux$",
+                "title": "^ranger$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
